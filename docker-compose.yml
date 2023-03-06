@@ -6,6 +6,8 @@ services:
       - "3000:3000"
     volumes:
       - ./frontend/hp:/app
+    environment:
+      - WATCHPACK_POLLING=true
   backend:
     build: ./backend
     ports:

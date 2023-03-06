@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_all",
+  "info": {
+    "singularName": "news",
+    "pluralName": "news-all",
+    "displayName": "News",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "CreatedAt": {
+      "type": "date"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

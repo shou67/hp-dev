@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_writer_writer_names",
+  "info": {
+    "displayName": "WriterName",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "vale": {
+      "type": "string"
+    },
+    "Tanaka": {
+      "type": "string"
+    }
+  }
+}
